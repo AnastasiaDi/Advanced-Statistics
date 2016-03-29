@@ -7,7 +7,7 @@ setwd("....") # macs without C:
 getwd() # print the current working directory
 
 
-# first save spss dataset (see bb/course documents) to csv 
+# first save spss dataset (in datasets.zip on github) to csv 
 # save csv (comma separated file by semicolon) in the directory
 
 
@@ -57,9 +57,13 @@ getwd() # print the current working directory
 
 
 # give the variables new names using this vector:
-newNames <- c("country","cosmo1","cosmo2","cosmo3","cosmo4","work1","work2","work3","work4","work5","work6",
-               "envcom1","envcom2","envcom3","envwrld1","envwrld2","envwrld3","wtp1","wtp2","wtp3","gender",
-               "ageR", "marital","child","edu","eduR","employ","job","income","weight")
+newNames <-  c("country","satis","trust","cosmo1","cosmo2","cosmo3","cosmo4",
+               "work1","work2","work3","work4","work5","work6",
+               "envcom1","envcom2","envcom3","envwrld1","envwrld2","envwrld3",
+               "wtp1","wtp2","wtp3","emanc1","emanc2","emanc3","emanc4",
+               "insight1","insight2","insight3","insight4",
+               "PC","gender","age","ageR", "marital","child","edu","eduR",
+               "employ","chief","socclass","income","weight")
 
 
 
